@@ -5,12 +5,12 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000268">
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000301">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: scan" time="259.738537">
+      <testcase classname="fastlane.lanes" name="1: scan" time="253.872399">
         
       </testcase>
     
