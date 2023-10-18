@@ -22,6 +22,7 @@
 		E46D2F352ADFBFCE006A99D0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F332ADFBFCE006A99D0 /* Fastfile */; };
 		E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F362ADFBFEF006A99D0 /* Gemfile */; };
 		E46D2F392ADFC711006A99D0 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F382ADFC711006A99D0 /* Gemfile.lock */; };
+		E46D2F3B2ADFDA25006A99D0 /* .ruby-version in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F3A2ADFDA25006A99D0 /* .ruby-version */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E46D2F332ADFBFCE006A99D0 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
 		E46D2F362ADFBFEF006A99D0 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		E46D2F382ADFC711006A99D0 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
+		E46D2F3A2ADFDA25006A99D0 /* .ruby-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				E46D2F362ADFBFEF006A99D0 /* Gemfile */,
 				E46D2F382ADFC711006A99D0 /* Gemfile.lock */,
+				E46D2F3A2ADFDA25006A99D0 /* .ruby-version */,
 				E46D2F312ADFBFCE006A99D0 /* fastlane */,
 				E46D2F2D2ADFB42F006A99D0 /* .github */,
 				E46D2EF62ADFB1AD006A99D0 /* TesterGitDemo */,
@@ -281,6 +284,7 @@
 				E46D2F302ADFB42F006A99D0 /* pullRequest.yml in Resources */,
 				E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */,
 				E46D2EFF2ADFB1AD006A99D0 /* Main.storyboard in Resources */,
+				E46D2F3B2ADFDA25006A99D0 /* .ruby-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
