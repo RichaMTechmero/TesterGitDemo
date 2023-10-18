@@ -17,6 +17,11 @@
 		E46D2F122ADFB1AF006A99D0 /* TesterGitDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D2F112ADFB1AF006A99D0 /* TesterGitDemoTests.swift */; };
 		E46D2F1C2ADFB1AF006A99D0 /* TesterGitDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D2F1B2ADFB1AF006A99D0 /* TesterGitDemoUITests.swift */; };
 		E46D2F1E2ADFB1AF006A99D0 /* TesterGitDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D2F1D2ADFB1AF006A99D0 /* TesterGitDemoUITestsLaunchTests.swift */; };
+		E46D2F302ADFB42F006A99D0 /* pullRequest.yml in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F2F2ADFB42F006A99D0 /* pullRequest.yml */; };
+		E46D2F342ADFBFCE006A99D0 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F322ADFBFCE006A99D0 /* Appfile */; };
+		E46D2F352ADFBFCE006A99D0 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F332ADFBFCE006A99D0 /* Fastfile */; };
+		E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F362ADFBFEF006A99D0 /* Gemfile */; };
+		E46D2F392ADFC711006A99D0 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F382ADFC711006A99D0 /* Gemfile.lock */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		E46D2F172ADFB1AF006A99D0 /* TesterGitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesterGitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E46D2F1B2ADFB1AF006A99D0 /* TesterGitDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterGitDemoUITests.swift; sourceTree = "<group>"; };
 		E46D2F1D2ADFB1AF006A99D0 /* TesterGitDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterGitDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E46D2F2F2ADFB42F006A99D0 /* pullRequest.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = pullRequest.yml; sourceTree = "<group>"; };
+		E46D2F322ADFBFCE006A99D0 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		E46D2F332ADFBFCE006A99D0 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		E46D2F362ADFBFEF006A99D0 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
+		E46D2F382ADFC711006A99D0 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,10 @@
 		E46D2EEB2ADFB1AD006A99D0 = {
 			isa = PBXGroup;
 			children = (
+				E46D2F362ADFBFEF006A99D0 /* Gemfile */,
+				E46D2F382ADFC711006A99D0 /* Gemfile.lock */,
+				E46D2F312ADFBFCE006A99D0 /* fastlane */,
+				E46D2F2D2ADFB42F006A99D0 /* .github */,
 				E46D2EF62ADFB1AD006A99D0 /* TesterGitDemo */,
 				E46D2F102ADFB1AF006A99D0 /* TesterGitDemoTests */,
 				E46D2F1A2ADFB1AF006A99D0 /* TesterGitDemoUITests */,
@@ -129,6 +143,31 @@
 			);
 			path = TesterGitDemoUITests;
 			sourceTree = "<group>";
+		};
+		E46D2F2D2ADFB42F006A99D0 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				E46D2F2E2ADFB42F006A99D0 /* workflows */,
+			);
+			path = .github;
+			sourceTree = SOURCE_ROOT;
+		};
+		E46D2F2E2ADFB42F006A99D0 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				E46D2F2F2ADFB42F006A99D0 /* pullRequest.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
+		E46D2F312ADFBFCE006A99D0 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				E46D2F322ADFBFCE006A99D0 /* Appfile */,
+				E46D2F332ADFBFCE006A99D0 /* Fastfile */,
+			);
+			path = fastlane;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -234,8 +273,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E46D2F352ADFBFCE006A99D0 /* Fastfile in Resources */,
 				E46D2F072ADFB1AF006A99D0 /* LaunchScreen.storyboard in Resources */,
+				E46D2F342ADFBFCE006A99D0 /* Appfile in Resources */,
 				E46D2F042ADFB1AF006A99D0 /* Assets.xcassets in Resources */,
+				E46D2F392ADFC711006A99D0 /* Gemfile.lock in Resources */,
+				E46D2F302ADFB42F006A99D0 /* pullRequest.yml in Resources */,
+				E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */,
 				E46D2EFF2ADFB1AD006A99D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +485,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85K4MBU7M6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TesterGitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -453,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.techmero.TesterGitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmero.TestingGithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -468,6 +513,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85K4MBU7M6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TesterGitDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,7 +526,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.techmero.TesterGitDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techmero.TestingGithub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
