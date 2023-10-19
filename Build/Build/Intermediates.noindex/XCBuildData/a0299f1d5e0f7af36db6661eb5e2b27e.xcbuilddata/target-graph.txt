@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+TesterGitDemo in TesterGitDemo, no dependencies
+TesterGitDemoTests in TesterGitDemo, depends on:
+TesterGitDemo in TesterGitDemo (explicit)
+TesterGitDemoUITests in TesterGitDemo, depends on:
+TesterGitDemo in TesterGitDemo (explicit)

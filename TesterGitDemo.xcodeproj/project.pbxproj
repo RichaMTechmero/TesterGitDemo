@@ -23,6 +23,11 @@
 		E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F362ADFBFEF006A99D0 /* Gemfile */; };
 		E46D2F392ADFC711006A99D0 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F382ADFC711006A99D0 /* Gemfile.lock */; };
 		E46D2F3B2ADFDA25006A99D0 /* .ruby-version in Resources */ = {isa = PBXBuildFile; fileRef = E46D2F3A2ADFDA25006A99D0 /* .ruby-version */; };
+		E46D5F142AE103340034450E /* Scanfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F132AE103340034450E /* Scanfile */; };
+		E46D5F162AE103F30034450E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F152AE103F30034450E /* .gitignore */; };
+		E46D5F1B2AE105110034450E /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F172AE105110034450E /* report.xml */; };
+		E46D5F1C2AE105110034450E /* report.html in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F192AE105110034450E /* report.html */; };
+		E46D5F1D2AE105110034450E /* report.junit in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F1A2AE105110034450E /* report.junit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +68,11 @@
 		E46D2F362ADFBFEF006A99D0 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
 		E46D2F382ADFC711006A99D0 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
 		E46D2F3A2ADFDA25006A99D0 /* .ruby-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".ruby-version"; sourceTree = "<group>"; };
+		E46D5F132AE103340034450E /* Scanfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scanfile; sourceTree = "<group>"; };
+		E46D5F152AE103F30034450E /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E46D5F172AE105110034450E /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
+		E46D5F192AE105110034450E /* report.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = report.html; sourceTree = "<group>"; };
+		E46D5F1A2AE105110034450E /* report.junit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.junit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,7 @@
 			children = (
 				E46D2F362ADFBFEF006A99D0 /* Gemfile */,
 				E46D2F382ADFC711006A99D0 /* Gemfile.lock */,
+				E46D5F152AE103F30034450E /* .gitignore */,
 				E46D2F3A2ADFDA25006A99D0 /* .ruby-version */,
 				E46D2F312ADFBFCE006A99D0 /* fastlane */,
 				E46D2F2D2ADFB42F006A99D0 /* .github */,
@@ -168,9 +179,21 @@
 			children = (
 				E46D2F322ADFBFCE006A99D0 /* Appfile */,
 				E46D2F332ADFBFCE006A99D0 /* Fastfile */,
+				E46D5F132AE103340034450E /* Scanfile */,
+				E46D5F172AE105110034450E /* report.xml */,
+				E46D5F182AE105110034450E /* test_output */,
 			);
 			path = fastlane;
 			sourceTree = SOURCE_ROOT;
+		};
+		E46D5F182AE105110034450E /* test_output */ = {
+			isa = PBXGroup;
+			children = (
+				E46D5F192AE105110034450E /* report.html */,
+				E46D5F1A2AE105110034450E /* report.junit */,
+			);
+			path = test_output;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -280,9 +303,14 @@
 				E46D2F072ADFB1AF006A99D0 /* LaunchScreen.storyboard in Resources */,
 				E46D2F342ADFBFCE006A99D0 /* Appfile in Resources */,
 				E46D2F042ADFB1AF006A99D0 /* Assets.xcassets in Resources */,
+				E46D5F162AE103F30034450E /* .gitignore in Resources */,
 				E46D2F392ADFC711006A99D0 /* Gemfile.lock in Resources */,
+				E46D5F1C2AE105110034450E /* report.html in Resources */,
+				E46D5F142AE103340034450E /* Scanfile in Resources */,
+				E46D5F1D2AE105110034450E /* report.junit in Resources */,
 				E46D2F302ADFB42F006A99D0 /* pullRequest.yml in Resources */,
 				E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */,
+				E46D5F1B2AE105110034450E /* report.xml in Resources */,
 				E46D2EFF2ADFB1AD006A99D0 /* Main.storyboard in Resources */,
 				E46D2F3B2ADFDA25006A99D0 /* .ruby-version in Resources */,
 			);
