@@ -13,14 +13,64 @@
 # Uncomment the line if you want fastlane to automatically update itself
 # update_fastlane
 
-default_platform(:ios)
+#default_platform(:ios)
 
-platform :ios do
-  desc "Push a new beta build to TestFlight"
-  lane :beta do |options|
-    scan(
-        clean: options[:clean],
-        skip_package_dependencies_resolution: options[:skip_package_dependencies_resolution]
-      )
+#platform :ios do
+#  desc "Push a new beta build to TestFlight"
+ # lane :beta do |options|
+#    scan(
+ #       clean: options[:clean],
+#        skip_package_dependencies_resolution: options[:skip_package_dependencies_resolution]
+#      )
+#  end
+#end
+
+lane :beta do |options|
+  app_store_connect_api_key(
+    key_id: "7D3QVD3V3B",
+    issuer_id: "37938031-4e89-484d-96e6-213008263413",
+    key_content: "-----BEGIN PRIVATE KEY-----\nMIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgz57RfTxpkoKCHcng
+f9lFkYu+Jga7Di6NNht+ioHKUEmgCgYIKoZIzj0DAQehRANCAATuBiL4WqEvh/gX
+yzvTU7EptCoZ2nGbLG6ERPC1KH6cos+xPZA7ERKuvc6CLfslFVBps0lUwdlZeMrz
+xjyONV26\n-----END PRIVATE KEY-----",#options[:apikey],
+    duration: 1200, # optional (maximum 1200)
+    in_house: false # optional but may be required if using match/sigh
+  )
+  if ENV['CI']
+    create_keychain(
+      name: "build",
+      password: "123456",
+      default_keychain: true,
+      unlock: true,
+      timeout: 3600,
+      lock_when_sleeps: false
+    )
+    sync_code_signing(
+      readonly: false,
+      type: "appstore",
+      keychain_name: "build",
+      keychain_password: "123456",
+      shallow_clone: true
+    )
+    sh("security find-certificate -a")
+  else
+    sync_code_signing(
+      type: "appstore",
+      readonly: false
+    )
   end
+  if "tag" != options[:event]
+    puts options[:event]
+    increment_build_number
+    commit_version_bump(message: "Build version bump")
+    sh("git push")
+  end
+  build_app(scheme: "D-Connect",
+            workspace: "Client.xcworkspace",
+            export_method: "app-store",
+            include_bitcode: false)
+  upload_to_testflight(
+    skip_submission: true,
+    skip_waiting_for_build_processing: true
+  )
 end

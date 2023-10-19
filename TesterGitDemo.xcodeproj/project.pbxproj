@@ -28,6 +28,7 @@
 		E46D5F1B2AE105110034450E /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F172AE105110034450E /* report.xml */; };
 		E46D5F1C2AE105110034450E /* report.html in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F192AE105110034450E /* report.html */; };
 		E46D5F1D2AE105110034450E /* report.junit in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F1A2AE105110034450E /* report.junit */; };
+		E46D5F1F2AE1350F0034450E /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = E46D5F1E2AE1350F0034450E /* Matchfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		E46D5F172AE105110034450E /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		E46D5F192AE105110034450E /* report.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = report.html; sourceTree = "<group>"; };
 		E46D5F1A2AE105110034450E /* report.junit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.junit; sourceTree = "<group>"; };
+		E46D5F1E2AE1350F0034450E /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +181,7 @@
 			children = (
 				E46D2F322ADFBFCE006A99D0 /* Appfile */,
 				E46D2F332ADFBFCE006A99D0 /* Fastfile */,
+				E46D5F1E2AE1350F0034450E /* Matchfile */,
 				E46D5F132AE103340034450E /* Scanfile */,
 				E46D5F172AE105110034450E /* report.xml */,
 				E46D5F182AE105110034450E /* test_output */,
@@ -309,6 +312,7 @@
 				E46D5F142AE103340034450E /* Scanfile in Resources */,
 				E46D5F1D2AE105110034450E /* report.junit in Resources */,
 				E46D2F302ADFB42F006A99D0 /* pullRequest.yml in Resources */,
+				E46D5F1F2AE1350F0034450E /* Matchfile in Resources */,
 				E46D2F372ADFBFEF006A99D0 /* Gemfile in Resources */,
 				E46D5F1B2AE105110034450E /* report.xml in Resources */,
 				E46D2EFF2ADFB1AD006A99D0 /* Main.storyboard in Resources */,

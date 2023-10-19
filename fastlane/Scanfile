@@ -2,10 +2,10 @@
 # https://github.com/fastlane/scan#scanfile
 
 #workspace "TesterGitDemo.xcodeproj/TesterGitDemo.xcworkspace"
-scheme "TesterGitDemo"
-sdk "iphonesimulator"
-device "iPhone 14 Pro Max"
-code_coverage true
-xcargs '-parallelizeTargets'
-prelaunch_simulator true
-derived_data_path "Build/"
+#scheme "TesterGitDemo"
+#sdk "iphonesimulator"
+#device "iPhone 14 Pro Max"
+#code_coverage true
+#xcargs '-parallelizeTargets'
+#prelaunch_simulator true
+#derived_data_path "Build/"
