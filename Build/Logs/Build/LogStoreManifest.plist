@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>6FB8C55C-A9A0-41CB-8CDB-2E726AC736FB</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6FB8C55C-A9A0-41CB-8CDB-2E726AC736FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TesterGitDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TesterGitDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>timeStartedRecording</key>
+			<real>719390412.32024801</real>
+			<key>timeStoppedRecording</key>
+			<real>719390417.24540806</real>
+			<key>title</key>
+			<string>Testing project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>6FB8C55C-A9A0-41CB-8CDB-2E726AC736FB</string>
+		</dict>
+		<key>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TesterGitDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TesterGitDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>timeStartedRecording</key>
+			<real>719390396.86363196</real>
+			<key>timeStoppedRecording</key>
+			<real>719390412.30694699</real>
+			<key>title</key>
+			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

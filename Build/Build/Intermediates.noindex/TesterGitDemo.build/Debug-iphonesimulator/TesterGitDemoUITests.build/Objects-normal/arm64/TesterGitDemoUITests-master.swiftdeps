@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "a3ab600fb70807bfad86dfb250f0d9dc56f901ae50a655b7d3445e7230c84d41"
+build_start_time: [1697697613, 201170000]
+build_end_time: [1697697617, 243962000]
+inputs:
+  "/Users/techmero/Documents/Projects/TesterGitDemo/TesterGitDemoUITests/TesterGitDemoUITests.swift": [1697610287, 417157025]
+  "/Users/techmero/Documents/Projects/TesterGitDemo/TesterGitDemoUITests/TesterGitDemoUITestsLaunchTests.swift": [1697610287, 419702435]
