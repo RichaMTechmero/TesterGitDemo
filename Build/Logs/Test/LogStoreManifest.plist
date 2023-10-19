@@ -51,6 +51,51 @@
 			<key>uniqueIdentifier</key>
 			<string>280936C9-23AC-4632-9628-A8E059E804FF</string>
 		</dict>
+		<key>BC792E87-9D2A-4666-93FE-7BECBE646814</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>54986B34-0C03-4031-99B2-A3C823A215F4</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.unit.cocoaUnitTest</string>
+			<key>fileName</key>
+			<string>Run-TesterGitDemo-2023.10.19_12-58-54-+0530.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasCoverageData</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TesterGitDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TesterGitDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run TesterGitDemo</string>
+			<key>timeStartedRecording</key>
+			<real>719393334.56955004</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run TesterGitDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>BC792E87-9D2A-4666-93FE-7BECBE646814</string>
+		</dict>
 	</dict>
 </dict>
 </plist>

@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
 options: "e14cbb94dda01da20a300c866e25d32d6acda4919f41986debe74479b3652a11"
-build_start_time: [1697697612, 809514000]
-build_end_time: [1697697616, 837332000]
+build_start_time: [1697700545, 491060000]
+build_end_time: [1697700546, 480375000]
 inputs:
   "/Users/techmero/Documents/Projects/TesterGitDemo/TesterGitDemo/AppDelegate.swift": [1697610285, 697933960]
   "/Users/techmero/Documents/Projects/TesterGitDemo/TesterGitDemo/SceneDelegate.swift": [1697610285, 701540243]

@@ -6,6 +6,40 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>54986B34-0C03-4031-99B2-A3C823A215F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>54986B34-0C03-4031-99B2-A3C823A215F4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>TesterGitDemo project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>TesterGitDemo</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>timeStartedRecording</key>
+			<real>719393334.56105006</real>
+			<key>timeStoppedRecording</key>
+			<real>719393344.86812603</real>
+			<key>title</key>
+			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<key>uniqueIdentifier</key>
+			<string>54986B34-0C03-4031-99B2-A3C823A215F4</string>
+		</dict>
 		<key>6FB8C55C-A9A0-41CB-8CDB-2E726AC736FB</key>
 		<dict>
 			<key>className</key>
@@ -40,7 +74,7 @@
 			<key>uniqueIdentifier</key>
 			<string>6FB8C55C-A9A0-41CB-8CDB-2E726AC736FB</string>
 		</dict>
-		<key>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8</key>
+		<key>9942CBB4-782D-4038-8490-721A52F65B29</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8.xcactivitylog</string>
+			<string>9942CBB4-782D-4038-8490-721A52F65B29.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -64,15 +98,15 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<string>Testing project TesterGitDemo with scheme TesterGitDemo</string>
 			<key>timeStartedRecording</key>
-			<real>719390396.86363196</real>
+			<real>719393344.92861605</real>
 			<key>timeStoppedRecording</key>
-			<real>719390412.30694699</real>
+			<real>719393346.48165905</real>
 			<key>title</key>
-			<string>Building project TesterGitDemo with scheme TesterGitDemo</string>
+			<string>Testing project TesterGitDemo with scheme TesterGitDemo</string>
 			<key>uniqueIdentifier</key>
-			<string>977DCB03-7C6C-4B1B-9B0E-7F0F8CCD70B8</string>
+			<string>9942CBB4-782D-4038-8490-721A52F65B29</string>
 		</dict>
 	</dict>
 </dict>
